@@ -3,6 +3,8 @@
 # This program plays the game Hangman.
 # Input a word, then guess the letters!
 
+#I dont know how to read python syntax but I know the issue is that its clearing each letter in reverse but
+
 import random
 
 secretWord= input("Enter a word: ").lower()

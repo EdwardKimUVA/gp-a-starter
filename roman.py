@@ -4,7 +4,7 @@
 # Roman numerals.  The program should exit on any other integer and is 
 # allowed to crash on non-integer inputs.
 
-num = int(input("Enter an integer: "))
+num = int(input("Enter an integer: ")) #fails if its not an int
 if (num < 0 or num > 4000) :
     print("Input must be between 1 and 3999")
 else:
